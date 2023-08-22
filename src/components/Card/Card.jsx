@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Card.css";
 
-const Card = ({ emoji, heading, detail }) => {
+const Card = ({ emoji, height, heading }) => {
   return (
     <div className="card">
-      <img src={emoji} alt="" />
+      <img src={emoji} alt="" height={height} />
       <span>{heading}</span>
-      <span>{detail} </span>
+      <button className="c-button">Show</button>
     </div>
   );
 };

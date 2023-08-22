@@ -84,6 +84,6 @@
     width: 17rem;
     border-radius: 50%;
     background-color: #c96b6b;
-    filter: blur(212px);
+    filter: blur(145px);
     z-index: -9;
 }

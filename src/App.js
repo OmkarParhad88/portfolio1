@@ -1,13 +1,17 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
 import Intro from './components/Intro/Intro';
-import Services from './components/Services/Services';
+import Skill from './components/Skill/Skill';
+import Education from './components/Education/Education'
+import Projects from './components/Projects/Projects';
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Intro />
-      <Services/>
+      <Skill />
+      <Education />
+      <Projects />
     </div>
   );
 }
