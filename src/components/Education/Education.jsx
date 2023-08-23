@@ -3,16 +3,18 @@ import "./Education.css";
 const Education = () => {
   return (
     <div className="education" style={{ margin: "2rem 0 0 2rem" }}>
-      <span>Education</span>
+      <span>
+        Education <img src="../../img/educationIcon.png" alt="" />
+      </span>
       <div className="ecademic ">
         <div className="pos edu1">
-          <span>Masters of computer science</span>
+          <span>Masters Of Computer Science</span>
           <span>DY Patil collage lehegaon ,PUNE </span>
           <span>Parsuing</span>
         </div>
 
         <div className="pos edu2">
-          <span>Bachelor of computer science</span>
+          <span>Bachelor Of Computer Science</span>
           <span>BJS collage Wagholi,PUNE </span>
           <span>CGPA : 8.0 </span>
         </div>

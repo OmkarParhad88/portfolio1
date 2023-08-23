@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 const Projects = () => {
   return (
-    <div className="project">
+    <div className="projects">
       {/* left side */}
       <div className="awesome">
         <span>My Awesome Project</span>
@@ -11,7 +11,7 @@ const Projects = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
           Exercitationem doloremque molestias quidem illo earum.
         </span>
-        <button className="button">Download CV</button>
+        <button className="button s-button">Download CV</button>
         <div
           className="blur s-blur1"
           style={{ backgroundColor: "rgb(63 172 195 / 87%" }}
