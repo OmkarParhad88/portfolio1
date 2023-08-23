@@ -1,10 +1,11 @@
 import React from "react";
 import "./Education.css";
+import education from "../../img/educationIcon.png";
 const Education = () => {
   return (
-    <div className="education" style={{ margin: "2rem 0 0 2rem" }}>
+    <div className="education">
       <span>
-        Education <img src="../../img/educationIcon.png" alt="" />
+        Education <img src={education} alt="" />
       </span>
       <div className="ecademic ">
         <div className="pos edu1">

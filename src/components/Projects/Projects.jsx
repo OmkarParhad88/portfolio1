@@ -5,8 +5,12 @@ const Projects = () => {
     <div className="projects">
       {/* left side */}
       <div className="awesome">
-        <span>My Awesome Project</span>
-        <span>RectJS,</span>
+        <span>My Awesome Projects</span>
+        <span>
+          Html,Css,JavaScript,
+          <br />
+          RectJS,
+        </span>
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
           Exercitationem doloremque molestias quidem illo earum.
@@ -17,6 +21,8 @@ const Projects = () => {
           style={{ backgroundColor: "rgb(63 172 195 / 87%" }}
         ></div>
       </div>
+
+      <div className="p-right"></div>
     </div>
   );
 };
