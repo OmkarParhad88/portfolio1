@@ -7,6 +7,10 @@ const Education = () => {
       <span>
         Education <img src={education} alt="" />
       </span>
+      <div
+        className="blur e-blur1"
+        style={{ backgroundColor: "rgb(63 172 195 / 87%" }}
+      ></div>
       <div className="ecademic ">
         <div className="pos edu1">
           <span>Masters Of Computer Science</span>
@@ -19,6 +23,10 @@ const Education = () => {
           <span>BJS collage Wagholi,PUNE </span>
           <span>CGPA : 8.0 </span>
         </div>
+        <div
+          className="blur e-blur2"
+          style={{ background: "rgb(213 143 255)" }}
+        ></div>
       </div>
     </div>
   );
