@@ -16,7 +16,7 @@ const Skill = () => {
       {/* left side */}
       <div className="awesome">
         <span>My Awesome</span>
-        <span>Skill</span>
+        <span>Skill's</span>
         <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Exercitationem doloremque molestias quidem illo earum.</span>
         <a href={resume} download>
           <button className="button s-button" href={resume} download>Download CV</button>

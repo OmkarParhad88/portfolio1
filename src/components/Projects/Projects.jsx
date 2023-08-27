@@ -39,15 +39,9 @@ const Projects = () => {
           <div className="p-secCircle">
             <span>Projects</span>
           </div>
-          {/* <div className="p-secCircle">
-            <img src={textUtil} alt="" />
-          </div>
-          <div className="p-secCircle">
-            <img src={textUtil} alt="" />
-          </div> */}
         </div>
-        <div className="p-backCicle blueCircle"></div>
-        <div className="p-backCicle yellowCircle"></div>
+        <div className="p-backCircle blueCircle"></div>
+        <div className="p-backCircle yellowCircle"></div>
       </div>
     </div>
   );

@@ -22,6 +22,7 @@
   height: 18rem;
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
+  background: white;
 }
 
 .p-mainCircle > * {
@@ -65,5 +66,25 @@
   justify-content: center;
   background: none;
   box-shadow: var(--smboxShadow);
-  background-color: white;
+  background: white;
+}
+
+.p-backCircle {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -16;
+}
+
+.blueCircle {
+  background-color: rgb(3, 3, 231);
+  left: 18rem;
+  top: 0;
+}
+
+.yellowCircle {
+  background-color: rgb(255, 220, 23);
+  left: 18rem;
+  top: 8rem;
 }
