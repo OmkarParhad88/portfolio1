@@ -1,6 +1,6 @@
 .education {
-  margin: 1rem 0px 0px 2rem;
-  height: 25rem;
+  margin: 1rem 5rem 0px 2rem;
+  height: 28rem;
 }
 
 .education > :nth-child(1) {
@@ -28,7 +28,7 @@
 }
 
 .pos > :nth-child(1) {
-  color: rgb(46, 46, 46);
+  color: var(--orange);
   font-size: 2rem;
   font-weight: bold;
 }
