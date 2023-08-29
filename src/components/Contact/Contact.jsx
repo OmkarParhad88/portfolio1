@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
 const Contact = () => {
+  const form = useRef();
+  const [done, setDone] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_lkj7fkw",
+        "template_6q24nba",
+        form.current,
+        "EeZ52FGBJ76OjQUkj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="contact-form">
       <div className="w-left">
@@ -14,23 +40,22 @@ const Contact = () => {
         </div>
       </div>
       <div className="c-right">
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="user_name"
-            className="user"
             placeholder="Name"
+            className="user"
           />
           <input
             type="email"
             name="user_email"
-            className="user"
             placeholder="Email"
+            className="user"
           />
           <textarea
             name="message"
-            placeholder="
-          Massage"
+            placeholder="Message"
             className="user"
           ></textarea>
           <input type="submit" value="Send" className="button" />
@@ -38,6 +63,7 @@ const Contact = () => {
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
           ></div>
+          <span>{done && "Thanks for contancting"}</span>
         </form>
       </div>
     </div>
