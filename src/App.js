@@ -6,6 +6,7 @@ import Education from './components/Education/Education'
 // import Projects from './components/Projects/Projects';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       {/* <Projects /> */}
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }
