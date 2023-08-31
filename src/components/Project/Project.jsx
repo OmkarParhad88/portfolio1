@@ -4,10 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import textutil from "../../img/textutil.png";
 import newsapp from "../../img/newsapp.png";
+import { themeContext } from "../../context";
+import { useContext } from "react";
 const Project = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="project">
-      <span>Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Projects</span>
       <Swiper
         spaceBetween={30}
         slidesPerView={2}

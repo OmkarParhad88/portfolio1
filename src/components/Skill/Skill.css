@@ -36,6 +36,7 @@
 
 .cards {
   position: relative;
+      left: 12%;
 }
 
 .cards > * {

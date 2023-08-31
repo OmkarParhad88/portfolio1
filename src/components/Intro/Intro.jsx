@@ -10,16 +10,20 @@ import boy from "../../img/boy3.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
+import { themeContext } from "../../context";
+import { useContext } from "react";
 function Intro() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hy,I Am </span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hy,I Am </span>
           <span>Omkar Parhad</span>
           <span>
-             I like to do frontend development with high lavel of interest in web development
-            ,productions the quality work
+            I like to do frontend development with high lavel of interest in web
+            development ,productions the quality work
           </span>
         </div>
         <button className="i-button button">Hire me</button>

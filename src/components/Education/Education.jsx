@@ -1,10 +1,14 @@
 import React from "react";
 import "./Education.css";
 import education from "../../img/educationIcon.png";
+import { themeContext } from "../../context";
+import { useContext } from "react";
 const Education = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="education">
-      <span>
+      <span style={{ color: darkMode ? "white" : "" }}>
         Education <img src={education} alt="" />
       </span>
       <div

@@ -9,13 +9,17 @@ import resume from "../../doc/Omkar Resume.pdf"
 import python from "../../img/python.png"
 import java from "../../img/java.png"
 import bootstrap from "../../img/bootstrap.png"
+import { themeContext } from "../../context";
+import { useContext } from "react";
 
 const Skill = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="skill">
       {/* left side */}
       <div className="awesome">
-        <span>My Awesome</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Skill's</span>
         <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Exercitationem doloremque molestias quidem illo earum.</span>
         <a href={resume} download>

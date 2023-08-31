@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navbar.css'
+import Toggle from "../Toggle/Toggle";
 
 const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Omkar</div>
-        <span>Toggle</span>
+        <Toggle />
       </div>
       <div className="n-right">
         <div className="n-list">
@@ -22,6 +23,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar
