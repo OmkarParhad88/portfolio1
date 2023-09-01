@@ -13,11 +13,11 @@ const Education = () => {
       <span style={{ color: darkMode ? "white" : "" }}>
         Education <img src={education} alt="" />
       </span>
-      <div
+      {/* <div
         className="blur e-blur1"
         style={{ backgroundColor: "rgb(63 172 195 / 87%" }}
-      ></div>
-      <div className="ecademic ">
+      ></div> */}
+      <div className="academic ">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}

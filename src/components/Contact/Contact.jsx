@@ -63,12 +63,13 @@ const Contact = () => {
             className="user"
           ></textarea>
           <input type="submit" value="Send" className="button" />
-          <div
-            className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
-          ></div>
+
           <span>{done && "Thanks for contancting"}</span>
         </form>
+        <div
+          className="blur c-blur1"
+          style={{ background: "var(--purple)" }}
+        ></div>
       </div>
     </div>
   );

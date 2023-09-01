@@ -87,3 +87,26 @@
     filter: blur(145px);
     z-index: -9;
 }
+
+@media screen and (max-width: 500px){
+ .intro{
+  margin-top: 1rem;
+  flex-direction: column;
+  gap:1rem;
+  height: 49rem;
+ }
+ .i-right{
+  transform:scale(0.6);
+  left: -9vw;
+  top: 1rem;
+ }
+
+ .i-right .blur{
+  display: none;
+ }
+
+ .floting-div:nth-of-type(1){
+  top: -7rem !important;
+
+ }
+}

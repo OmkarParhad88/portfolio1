@@ -1,6 +1,6 @@
 .education {
   margin: 0rem 5rem 0px 2rem;
-  height: 28rem;
+  height: 25rem;
   padding-top: 3rem;
 }
 
@@ -17,20 +17,24 @@
   top: 0.4rem;
 }
 
-.edu1 {
+
+.pos{
   position: relative;
+
+}
+
+.edu1 {
   top: 1rem;
   left: 0rem;
 }
 .edu2 {
-  position: relative;
   top: 3rem;
   left: 41vw;
 }
 
 .pos > :nth-child(1) {
   color: var(--orange);
-  font-size: 2rem;
+  font-size: 2rem; 
   font-weight: bold;
 }
 
@@ -54,7 +58,7 @@
   padding: 10px 24px;
   background: linear-gradient(180deg, #ffffff 26.71%, #ff9d0b 99.36%);
   box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
-  width: 30rem;
+  max-width: 27rem;
 }
 
 .e-blur2 {
@@ -63,6 +67,30 @@
 }
 
 .e-blur1 {
-  top: 75rem;
-  left: 26rem;
+  top: 93rem;
+  left: 46rem;
+}
+
+@media screen and (max-width:500px) {
+
+  .education{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    margin: 3rem 0.2rem;
+
+  }
+
+  .pos{
+    position:static;
+    display: flex
+  }
+
+  .academic{
+        height: 27rem;
+  }
+
+  .blur{
+    display: none;
+  }
 }

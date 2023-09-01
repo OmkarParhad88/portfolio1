@@ -9,6 +9,7 @@ import resume from "../../doc/Omkar Resume.pdf"
 import python from "../../img/python.png"
 import java from "../../img/java.png"
 import bootstrap from "../../img/bootstrap.png"
+import github from "../../img/github2.png"
 import { themeContext } from "../../context";
 import { useContext } from "react";
 
@@ -30,52 +31,59 @@ const Skill = () => {
 
       {/* right side */}
       <div className="cards">
-        <div style={{ left: "8rem", top: "-4rem" }}>
+        <div style={{ left: "7rem", top: "-6rem" }}>
           <Card
             emoji={html}
             heading={'Html'}
             height={"50"}
           />
         </div>
-        <div style={{ left: "23rem", top: "-1rem" }}>
+        <div style={{ left: "19rem", top: "-4rem" }}>
           <Card
             emoji={css}
             heading={'Css'}
             height={"50"}
           />
         </div>
-        <div style={{ left: "11rem", top: "5rem" }}>
+        <div style={{ left: "7rem", top: "1rem" }}>
           <Card
             emoji={js}
             heading={'Java Script'}
             height={"50"}
           />
         </div>
-        <div style={{ left: "21rem", top: "9rem" }}>
+        <div style={{ left: "19rem", top: "3rem" }}>
           <Card
             emoji={reactjs}
             heading={'React JS'}
             height={"50"}
           />
         </div>
-        <div style={{ left: "4rem", top: "14rem" }}>
+        <div style={{ left: "7rem", top: "8rem" }}>
           <Card
             emoji={python}
             heading={'Python'}
             height={"50"}
           />
         </div>
-        <div style={{ left: "14rem", top: "17rem" }}>
+        <div style={{ left: "19rem", top: "10rem" }}>
           <Card
             emoji={java}
             heading={'Java'}
             height={"50"}
           />
         </div>
-        <div style={{ left: "-4rem", top: "17rem" }}>
+        <div style={{ left: "7rem", top: "15rem" }}>
           <Card
             emoji={bootstrap}
             heading={'Bootstrap'}
+            height={"50"}
+          />
+        </div>
+        <div style={{ left: "19rem", top: "17rem" }}>
+          <Card
+            emoji={github}
+            heading={'Github'}
             height={"50"}
           />
         </div>

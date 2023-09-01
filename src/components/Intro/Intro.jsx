@@ -63,11 +63,13 @@ function Intro() {
           transition={transition}
           src={glassesimoji}
           alt=""
+          className="floting-div"
         />
         <motion.div
           initial={{ left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
+          className="floting-div"
           // style={{ top: "-3rem", left: "22rem" }}
         >
           <FloatingDiv image={crown} text="Web" text2="Developer" />
@@ -76,7 +78,8 @@ function Intro() {
           initial={{ left: "-23%" }}
           whileInView={{ left: "-9%" }}
           transition={transition}
-          style={{ top: "55%" }}
+          style={{ top: "12rem" }}
+          // className="floting-div"
         >
           <FloatingDiv image={thumbup} text="Best Design" text2="Award" />
         </motion.div>
