@@ -16,7 +16,7 @@ const Skill = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="skill">
+    <div className="skill" id="Skill">
       {/* left side */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>

@@ -10,7 +10,7 @@ const Project = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="project">
+    <div className="project" id="Project">
       <span style={{ color: darkMode ? "white" : "" }}>Projects</span>
       <Swiper
         spaceBetween={30}

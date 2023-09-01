@@ -1,6 +1,7 @@
 .education {
-  margin: 1rem 5rem 0px 2rem;
+  margin: 0rem 5rem 0px 2rem;
   height: 28rem;
+  padding-top: 3rem;
 }
 
 .education > :nth-child(1) {

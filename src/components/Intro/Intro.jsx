@@ -12,11 +12,13 @@ import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import { themeContext } from "../../context";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 function Intro() {
+  const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="intro">
+    <div className="intro" id="Intro">
       <div className="i-left">
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hy,I Am </span>
@@ -55,13 +57,29 @@ function Intro() {
         <img src={vector1} alt="" />
         <img src={vector2} alt="" />
         <img src={boy} alt="" />
-        <img src={glassesimoji} alt="" />
-        <div style={{ top: "-3rem", left: "22rem" }}>
+        <motion.img
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-23%" }}
+          transition={transition}
+          src={glassesimoji}
+          alt=""
+        />
+        <motion.div
+          initial={{ left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          // style={{ top: "-3rem", left: "22rem" }}
+        >
           <FloatingDiv image={crown} text="Web" text2="Developer" />
-        </div>
-        <div style={{ top: "15rem", left: "-3rem" }}>
+        </motion.div>
+        <motion.div
+          initial={{ left: "-23%" }}
+          whileInView={{ left: "-9%" }}
+          transition={transition}
+          style={{ top: "55%" }}
+        >
           <FloatingDiv image={thumbup} text="Best Design" text2="Award" />
-        </div>
+        </motion.div>
 
         {/* blur divs */}
 
