@@ -17,10 +17,8 @@
   top: 0.4rem;
 }
 
-
-.pos{
+.pos {
   position: relative;
-
 }
 
 .edu1 {
@@ -34,7 +32,7 @@
 
 .pos > :nth-child(1) {
   color: var(--orange);
-  font-size: 2rem; 
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -71,26 +69,30 @@
   left: 46rem;
 }
 
-@media screen and (max-width:500px) {
-
-  .education{
+@media screen and (max-width: 500px) {
+  .education {
     display: flex;
     flex-direction: column;
     padding: 0.2rem;
-    margin: 3rem 0.2rem;
+    gap: 2rem;
+    margin: 2rem 0.2rem;
+    height: 40rem;
+  }
+
+  .pos {
+    position: static;
+    display: flex;
+  }
+
+  .academic {
+        height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
   }
 
-  .pos{
-    position:static;
-    display: flex
-  }
-
-  .academic{
-        height: 27rem;
-  }
-
-  .blur{
+  .blur {
     display: none;
   }
 }

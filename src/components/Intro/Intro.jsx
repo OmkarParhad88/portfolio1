@@ -66,11 +66,11 @@ function Intro() {
           className="floting-div"
         />
         <motion.div
-          initial={{ left: "74%" }}
-          whileInView={{ left: "68%" }}
+          initial={{ right: "-12%" }}
+          whileInView={{ right: "-4%" }}
           transition={transition}
           className="floting-div"
-          // style={{ top: "-3rem", left: "22rem" }}
+          // style={{ top: "0rem", right: "0rem" }}
         >
           <FloatingDiv image={crown} text="Web" text2="Developer" />
         </motion.div>

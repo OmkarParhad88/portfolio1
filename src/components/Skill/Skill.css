@@ -58,7 +58,6 @@
 
 @media screen and (max-width: 500px) {
  .skill {
-    /* margin-bottom: 27rem; */
     flex-direction: column;
     gap: 5rem;
     height: 51rem;
@@ -68,7 +67,7 @@
 
   .cards {
     position: relative;
-    left: -7vw;
+    left: 0vw;
     top: 3rem;
   }
 
