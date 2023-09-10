@@ -19,13 +19,17 @@ const Project = () => {
         className="project-slider"
       >
         <SwiperSlide>
-          <img src={textutil} alt="" />
+          <a href="https://omkarparhad88.github.io/omkar-app/" target="_blank">
+            <img src={textutil} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={newsapp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={textutil} alt="" />
+          <a href="https://omkarparhad88.github.io/omkar-app/" target="_blank">
+            <img src={textutil} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

@@ -13,6 +13,7 @@ import glassesimoji from "../../img/glassesimoji.png";
 import { themeContext } from "../../context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 function Intro() {
   const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
@@ -28,7 +29,9 @@ function Intro() {
             development ,productions the quality work
           </span>
         </div>
-        <button className="i-button button">Hire me</button>
+        <Link spy={true} to="Contact" smooth={true} activeClass="activeClass">
+          <button className="i-button button">Hire me</button>
+        </Link>
         <div className="i-icons">
           <a
             href="https://github.com/OmkarParhad88"
