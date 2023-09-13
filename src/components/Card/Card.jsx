@@ -17,7 +17,7 @@ const Card = ({ emoji, height, heading }) => {
     >
       <img src={emoji} alt="" height={height} />
       <span>{heading}</span>
-      <button className="c-button">Show</button>
+      {/* <button className="c-button">Show</button> */}
     </motion.div>
   );
 };

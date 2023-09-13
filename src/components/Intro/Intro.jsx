@@ -48,7 +48,7 @@ function Intro() {
             <img src={linkedin} alt="" />
           </a>
           <a
-            href="https://www.instagram.com/omi_parhad__8887/"
+            href="https://www.instagram.com/omi_parhad_8878/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
             target="_blank"
             rel="noreferrer noopener"
           >
