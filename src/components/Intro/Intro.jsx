@@ -26,6 +26,7 @@ function Intro() {
           <span>Omkar Parhad</span>
           <span>
             I like to do frontend development with high lavel of interest in web
+            <br />
             development ,productions the quality work
           </span>
         </div>
@@ -73,7 +74,6 @@ function Intro() {
           whileInView={{ right: "-4%" }}
           transition={transition}
           className="floting-div"
-          // style={{ top: "0rem", right: "0rem" }}
         >
           <FloatingDiv image={crown} text="Web" text2="Developer" />
         </motion.div>
@@ -81,8 +81,7 @@ function Intro() {
           initial={{ left: "-23%" }}
           whileInView={{ left: "-9%" }}
           transition={transition}
-          style={{ top: "12rem" }}
-          // className="floting-div"
+          style={{ top: "17rem" }}
         >
           <FloatingDiv image={thumbup} text="Best Design" text2="Award" />
         </motion.div>

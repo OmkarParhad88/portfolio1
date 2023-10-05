@@ -11,11 +11,12 @@ const Footer = () => {
       <img src={wave} alt="" style={{ width: "100%", height: "23rem" }} />
       <div className="f-content">
         <span>omkarparhad88pro@gamil.com</span>
+
         <div className="f-icons">
           <a href="https://www.instagram.com/omi_parhad_8878/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
             <Instagram color="white" size="3rem" />
           </a>
-          <a href="https://github.com/OmkarParhad88">
+          <a target="_blank" href="https://github.com/OmkarParhad88">
             <Github color="white" size="3rem" />
           </a>
           <a href="https://www.facebook.com/omkar.parhad.3/">
