@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio1/static/css/main.17b11f56.css",
-    "main.js": "/portfolio1/static/js/main.3369ce09.js",
+    "main.js": "/portfolio1/static/js/main.7e2a709a.js",
     "static/media/boy3.png": "/portfolio1/static/media/boy3.790358bc7dec8533a422.png",
     "static/media/newsapp.png": "/portfolio1/static/media/newsapp.d9fcbbe28faace7fb8e2.png",
     "static/media/reactjs.png": "/portfolio1/static/media/reactjs.2f2532db663fd5ec5f95.png",
@@ -11,9 +11,9 @@
     "static/media/html.png": "/portfolio1/static/media/html.f3aa7827cd5160f3fc1c.png",
     "static/media/Omkar Resume.pdf": "/portfolio1/static/media/Omkar Resume.b31d663bb48c452305d8.pdf",
     "static/media/glassesimoji.png": "/portfolio1/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/wave4.png": "/portfolio1/static/media/wave4.c1f23c1cfe1ca0697447.png",
     "static/media/java.png": "/portfolio1/static/media/java.5d5cffa04d820ba0644c.png",
     "static/media/js.png": "/portfolio1/static/media/js.1fd44cea9d9bd9ee2944.png",
-    "static/media/wave3.png": "/portfolio1/static/media/wave3.9e7cf4d41b5a2d5bb283.png",
     "static/media/css.png": "/portfolio1/static/media/css.f5abc244362b5136dc0e.png",
     "static/media/vector22.png": "/portfolio1/static/media/vector22.50a47ad6dcb0a5ec74b0.png",
     "static/media/vector11.png": "/portfolio1/static/media/vector11.4bfc20399a0026987c7e.png",
@@ -22,10 +22,10 @@
     "static/media/crown.png": "/portfolio1/static/media/crown.dbe416beae9b49b842ab.png",
     "index.html": "/portfolio1/index.html",
     "main.17b11f56.css.map": "/portfolio1/static/css/main.17b11f56.css.map",
-    "main.3369ce09.js.map": "/portfolio1/static/js/main.3369ce09.js.map"
+    "main.7e2a709a.js.map": "/portfolio1/static/js/main.7e2a709a.js.map"
   },
   "entrypoints": [
     "static/css/main.17b11f56.css",
-    "static/js/main.3369ce09.js"
+    "static/js/main.7e2a709a.js"
   ]
 }
