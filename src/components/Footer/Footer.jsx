@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import wave from "../../img/wave.png";
+import wave from "../../img/wave3.png";
 import Instagram from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Github from "@iconscout/react-unicons/icons/uil-github";
@@ -13,16 +13,32 @@ const Footer = () => {
         <span>omkarparhad88pro@gamil.com</span>
 
         <div className="f-icons">
-          <a href="https://www.instagram.com/omi_parhad_8878/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/omi_parhad_8878/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+          >
             <Instagram color="white" size="3rem" />
           </a>
-          <a target="_blank" href="https://github.com/OmkarParhad88">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/OmkarParhad88"
+          >
             <Github color="white" size="3rem" />
           </a>
-          <a href="https://www.facebook.com/omkar.parhad.3/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/omkar.parhad.3/"
+          >
             <Facebook color="white" size="3rem" />
           </a>
-          <a href="https://www.linkedin.com/in/omkar-parhad-93537b22a">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/omkar-parhad-93537b22a"
+          >
             <Linkedin color="white" size="3rem" />
           </a>
         </div>

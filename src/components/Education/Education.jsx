@@ -1,6 +1,6 @@
 import React from "react";
 import "./Education.css";
-import education from "../../img/educationIcon.png";
+import education from "../../img/education.png";
 import { themeContext } from "../../context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
