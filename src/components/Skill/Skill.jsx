@@ -5,7 +5,7 @@ import css from "../../img/css.png";
 import reactjs from "../../img/reactjs.png";
 import js from "../../img/js.png";
 import Card from "../Card/Card";
-import resume from "../../doc/Omkar Resume.pdf";
+import resume from "../../doc/Omkar's Resume (13).pdf";
 import python from "../../img/python.png";
 import java from "../../img/java.png";
 import bootstrap from "../../img/bootstrap.png";
