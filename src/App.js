@@ -9,6 +9,8 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { themeContext } from './context';
 import { useContext } from 'react';
+import Contact2 from './components/Contact2/Contact2';
+
 function App() {
 
   const theme = useContext(themeContext);
@@ -25,7 +27,6 @@ function App() {
       <Intro />
       <Skill />
       <Education />
-      {/* <Projects /> */}
       <Project />
       <Contact />
       <Footer />
