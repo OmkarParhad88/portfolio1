@@ -21,8 +21,6 @@ function App() {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : ""
       }}>
-
-
       <Navbar/>
       <Intro />
       <Skill />
